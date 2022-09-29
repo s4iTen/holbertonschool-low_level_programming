@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- *return required parenthese statement
+ *main - Entry point
  */
 int main(void)
 {
