@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- *
  *main - display output without using print or puts command
  *
  *Return: Always 1 (Success)
