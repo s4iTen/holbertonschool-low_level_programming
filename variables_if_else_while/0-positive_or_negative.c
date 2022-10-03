@@ -6,8 +6,9 @@
  */
 
 /**
- *betty style doc for function main goes there
+ *
  *main - Entry point for c program
+ *
  *Return: always 0 (Success)
  */
 int main(void)
