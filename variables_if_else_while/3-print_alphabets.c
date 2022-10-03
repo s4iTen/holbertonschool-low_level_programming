@@ -6,11 +6,17 @@
  */
 int main(void)
 {
-  char ab;
-  for (ab = 65; ab < 91; ab++)
-    {
-      putchar(ab);
-    }
-  putchar('\n');
-  return (0);
+char aa;
+
+char ab;
+for (ab = 97; ab < 123; ab++)
+{
+putchar(ab);
+}
+for (aa = 65; aa < 91; aa++)
+{
+putchar(aa);
+}
+putchar('\n');
+return (0);
 }
