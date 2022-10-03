@@ -10,8 +10,8 @@ int ab;
 for (ab = 0; ab < 9; ab++)
 {
 putchar((ab % 10) + '0');
-if (ab == 9)
-continue;
+if (ab == 10)
+putchar("10");
 putchar(',');
 putchar(' ');
 }
