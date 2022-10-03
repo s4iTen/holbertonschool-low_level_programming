@@ -11,7 +11,7 @@ for (ab = 0; ab < 9; ab++)
 {
 putchar((ab % 10) + '0');
 if (ab == 10)
-putchar("10");
+putchar('9');
 putchar(',');
 putchar(' ');
 }
