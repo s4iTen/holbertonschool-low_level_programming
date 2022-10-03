@@ -2,10 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ * main -Entry point for c program
  *
- *main - Entry point for c program
- *
- *Return: Always 0 (Success)
+ *Return: Always 0
  */
 int main(void)
 {
