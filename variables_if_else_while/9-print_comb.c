@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-char ab;
-for (ab = 48; ab < 58; ab++)
+int ab;
+for (ab = 0; ab < 9; ab++)
 {
 putchar(ab);
 putchar(',');
