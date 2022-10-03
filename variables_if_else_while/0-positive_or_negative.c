@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main()
+void main(int)
 {
   printf (rand());
   getch();
