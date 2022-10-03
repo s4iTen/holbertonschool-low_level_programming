@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-  char ab;
-  for (ab = 48; ab < 58; ab++)
-    {
-      putchar(ab);
-      putchar(',');
-      putchar(' ');
-    }
-  putchar('\n');
-  return (0);
+char ab;
+for (ab = 48; ab < 58; ab++)
+{
+putchar(ab);
+putchar(',');
+putchar(' ');
+}
+putchar('\n');
+return (0);
 }
