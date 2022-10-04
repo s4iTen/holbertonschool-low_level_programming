@@ -8,7 +8,8 @@
 void print_alphabet_x10(void)
 {
   char i;
-  char b;
+
+  int b;
 
   for (b = 0; b < 10; b++)
     {
@@ -17,6 +18,5 @@ void print_alphabet_x10(void)
       _putchar(i);
     }
   _putchar('\n');
-  printf("%n\n" b);
     }
 }
