@@ -3,7 +3,7 @@
 * _islower - change the returne
 *
 * Return: 0 and 1
-* c - is the integer
+* @c: is the integer
 */
 int _islower(int c)
 {
