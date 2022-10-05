@@ -5,7 +5,7 @@
 * Return: 0 and 1
 * @c: is the integer
 */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (c > 97 && c < 123)
 		return (1);
