@@ -13,7 +13,7 @@ void jack_bauer(void)
 	{
 		
 		printf("%02d : %02d\n", hour, minute);
-		
+		fflush(stdout);
 		minute++;
 		if(minute==60)
 		{
@@ -22,9 +22,10 @@ void jack_bauer(void)
         }
         if(hour==24)
 		{
+
             minute=0;
         }
-		sleep(1);
+		sleep(0.1);
 	}
 	
 }
