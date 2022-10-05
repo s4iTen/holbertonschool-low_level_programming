@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * _islower - change the returne
+ * 
+ * Return: 0 and 1 
+ */
 int _islower(int c)
 {
 	if (c > 97 && c < 123)
