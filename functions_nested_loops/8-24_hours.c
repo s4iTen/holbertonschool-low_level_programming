@@ -20,10 +20,10 @@ void jack_bauer(void)
             hour+=1;
             minute=0;
         }
-        if(hour==24)
+        if(hour==23)
 		{
-            minute=0;
-			break;
+            minute=59;
+			continue;
         }
 		sleep(0.1);
 	}
