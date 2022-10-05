@@ -22,8 +22,8 @@ void jack_bauer(void)
         }
         if(hour==24)
 		{
-
             minute=0;
+			break;
         }
 		sleep(0.1);
 	}
