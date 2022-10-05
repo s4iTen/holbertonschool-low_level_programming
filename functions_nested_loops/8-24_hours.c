@@ -11,7 +11,7 @@ void jack_bauer(void)
 	hour=minute=0;
 	while (1)
 	{
-		system("clear");
+		
 		printf("%02d : %02d\n", hour, minute);
 		fflush(stdout);
 		minute++;
