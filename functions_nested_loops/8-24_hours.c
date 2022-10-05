@@ -18,15 +18,13 @@ void jack_bauer(void)
 		if(minute==60)
 		{
             hour+=1;
-            minute=0;
+			minute=0;
+
         }
 		if(hour == 23 && minute == 59)
 		{
 			break;
 		}
-        
-		sleep(1);
-		
 	}
 	
 }
