@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * print_last_digit - check the code
+ * 
+ */
 void jack_bauer(void)
 {
 	int hour;
