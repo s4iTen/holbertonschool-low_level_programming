@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _islower - change the returne
-* 
+*
 * Return: 0 and 1
 * c - is the integer
 */
