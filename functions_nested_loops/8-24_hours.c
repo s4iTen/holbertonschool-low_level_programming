@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void jack_bauer(void z)
+void jack_bauer(void)
 {
 	int hour, minute;
 
