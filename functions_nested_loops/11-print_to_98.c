@@ -1,8 +1,14 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * print_to_98 - Description: 'adding two numbers'
+ *
+ * @n: - integer to use
+ */
 void print_to_98(int n)
 {
 	int i;
+
 	if (n < 98)
 	{
 		for (i = n; i <= 98; i++)
