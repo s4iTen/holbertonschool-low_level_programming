@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * print_numbers - check the code
- * @i: this is an intiger
+ *
+ * @i: - this is an intiger
  */
 void print_numbers(void)
 {
