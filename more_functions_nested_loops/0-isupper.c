@@ -3,7 +3,6 @@
  * _isupper - Description: 'is upper'
  *
  * Return: always 0 or 1
- * 
  * @c: - integer to use
  */
 int _isupper(int c)
