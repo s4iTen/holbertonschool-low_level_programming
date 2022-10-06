@@ -2,12 +2,11 @@
 /**
  * print_numbers - check the code
  *
- * @i: - this is an intiger
+ * @i: - integer to use
+ *
  */
-void print_numbers(void)
+void print_numbers(int i)
 {
-	int i;
-
 	for (i = '0'; i <= '9'; i++)
 	{
 		_putchar(i);
