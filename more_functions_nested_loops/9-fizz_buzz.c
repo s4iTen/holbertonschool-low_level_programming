@@ -5,7 +5,7 @@
  * @i: the int for the paramaters of my function
  * @count: the int for the paramaters of my function
  */
-int main()
+int main(void)
 {
 	int i, count;
 
