@@ -26,10 +26,10 @@ int main(void)
 			printf("Buzz");
 		}
 		else if (i != 100)
-			_putchar(' ');
+			putchar(' ');
 		else
 			printf("%d ", i);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
