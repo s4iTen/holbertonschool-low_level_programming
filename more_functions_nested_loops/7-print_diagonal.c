@@ -3,20 +3,27 @@
  * print_diagonal - check the code 'print ' 'and bach to new line'
  * @n: - integer to use
  */
+
 void print_diagonal(int n)
 {
-	int a;
+	int a = 0;
+	int b = 0;
 
 	if (n > 0)
 	{
-		for (a = 0; a < n; a++)
+		while (a < n)
 		{
-			_putchar(' ');
+			while (b < a)
+			{
+				_putchar(' ');
+				b++;
+			}
+			a++;
+			b = 0;
+			_putchar('\\');
+			_putchar('\n');
 		}
-	_putchar('\n');
 	}
 	else
-	{
 		_putchar('\n');
-	}
 }
