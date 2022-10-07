@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - check the code 'print _and bach to new line'
- *
+ * @n: - this is an intiger
  */
 void print_line(int n)
 {
