@@ -26,7 +26,7 @@ int main(void)
 			printf("Buzz");
 		}
 		else if (i != 100)
-			putchar(' ');
+			printf("%d ", i);
 		else
 			printf("%d ", i);
 	}
