@@ -28,6 +28,6 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
