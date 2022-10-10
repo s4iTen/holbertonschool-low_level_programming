@@ -2,7 +2,7 @@
 /**
  * _strlen - Description 'count lenght of pointer'.
  * @s: - it is a pinter called s
- *
+ * Return: Always c
  */
 int _strlen(char *s)
 {
