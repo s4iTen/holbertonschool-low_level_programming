@@ -18,9 +18,13 @@ void puts_half(char *str)
 	}
 	else
 	{
-		for (i = ((len - 1) / 2); i <= len; i++)
+		for (i = (((len - 1) / 2) + 1); i <= len; i++)
 		{
-			_putchar(str[i]);
+			if (str[i] != '\0')
+			{
+			_putchar(str[i]);	
+			}
+			
 		}
 	}
 	_putchar('\n');
