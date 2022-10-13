@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strncpy - Description 'coppy arrays'.
+ * _strncpy - Description 'coppy arrays'.
  * @dest: - it is a pointer called dest
  * @src: - it is a pointer called src
  * @n: - it is an integer called n
