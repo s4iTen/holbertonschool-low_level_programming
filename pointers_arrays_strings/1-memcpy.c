@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *cap_string - Description 'coppy arrays'.
+ * *_memcpy - Description 'coppy arrays'.
  * @dest: - it is a pointer called dest
  * @src: - it is a pointer called src
  * @n: - it is an integer called n
