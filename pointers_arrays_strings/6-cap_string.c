@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *string_toupper - Description 'coppy arrays'.
+ * *cap_string - Description 'coppy arrays'.
  * @a: - it is a pointer called dest
  * Return: - Always 'a'
  */
