@@ -1,8 +1,10 @@
 #include "main.h"
 /**
  * *cap_string - Description 'coppy arrays'.
- * @a: - it is a pointer called dest
- * Return: - Always 'a'
+ * @s: - it is a pointer called s
+ * @b: - it is an integer called b
+ * @n: - it is an integer called n
+ * Return: - Always 's'
  */
 char *_memset(char *s, char b, unsigned int n)
 {
