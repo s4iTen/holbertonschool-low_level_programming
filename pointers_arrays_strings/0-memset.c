@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *cap_string - Description 'coppy arrays'.
+ * *_memset - Description 'coppy arrays'.
  * @s: - it is a pointer called s
  * @b: - it is an integer called b
  * @n: - it is an integer called n
