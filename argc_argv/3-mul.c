@@ -10,14 +10,15 @@ int main(int argc, char *argv[])
 {
 	int k;
 
-	argc = 1;
-	if (argc < 2)
+
+	if (argc <= 2)
 	{
-		printf("error\n");
+		printf("Error\n");
 		return (1);
 	}
 	else
 	{
+		argc = 1;
 		k = atoi(argv[argc]) * atoi(argv[argc + 1]);
 		printf("%d\n", k);
 		return (0);
