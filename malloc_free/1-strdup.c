@@ -6,7 +6,7 @@
  */
 char *_strdup(char *str)
 {
-	int len = strlen(str);
+	int len = 0;
 	int i = 0;
 	int j = 0;
 	char *p;
@@ -15,15 +15,18 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+	for (j = 0; str[j]; j++)
+	{
+		len++;
+	}
 	p = malloc((len + 1) * sizeof(char));
 	if (p == NULL)
 	{
 		return (NULL);
 	}
-	while (j < len)
+	while (i < len)
 	{
-		p[j] = str[i];
-		j++;
+		p[i] = str[i];
 		i++;
 	}
 	return (p);
