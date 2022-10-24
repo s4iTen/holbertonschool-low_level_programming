@@ -20,7 +20,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	while (j < len)
+	while (j <= len)
 	{
 		p[j] = str[i];
 		j++;
