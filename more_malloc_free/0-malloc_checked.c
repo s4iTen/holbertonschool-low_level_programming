@@ -4,15 +4,12 @@ void *malloc_checked(unsigned int b)
 {
     int *p;
 
-    if (b == 0)
-    {
-        return (NULL);
-    }
-    p = malloc(b * sizeof(int));
+    p = malloc(b);
     if (p == NULL)
     {
         return (NULL);
+        free(p);
     }
-    return (p);
     free(p);
+    return (p);
 }
