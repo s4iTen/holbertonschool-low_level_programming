@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *malloc_checked - check the code
+ * malloc_checked - check the code
  * @b: it is a variable called 'b'
  * Return: Always pointer.
  */
