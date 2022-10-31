@@ -1,3 +1,5 @@
+#ifndef HEADERFILE_H
+#define HEADERFILE_H
 /**
  * struct dog - check the code
  * @name: its an array of type char called 'name'
@@ -10,3 +12,4 @@ struct dog
 	float age;
 	char *owner;
 };
+#endif
