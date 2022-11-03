@@ -6,6 +6,6 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	(*f)(name);
-	printf("%s", name);
+	if (name != NULL || f != NULL)
+		(*f)(name);
 }
