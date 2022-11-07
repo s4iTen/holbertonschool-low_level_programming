@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 /**
  * print_all - function that print all
- * Printable_t - structure
+ * @Printable_t:  structure
  * @format: it is a contant pointer called 'format'
  */
 void print_all(const char *const format, ...)
