@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * function that return the sum of all the data in the node
+ * sum_listint - function that return the sum of all the data in the node
  * @head: this is the node
  * Return: Always the sum of the data (n) of the node
  */
