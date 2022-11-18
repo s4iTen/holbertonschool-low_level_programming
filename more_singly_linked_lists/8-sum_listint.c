@@ -10,8 +10,6 @@ int sum_listint(listint_t *head)
 	
 	while (head != NULL)
 	{
-		if (head == NULL)
-			return (NULL);
 		i += head->n;
 		head = head->next;
 	}
