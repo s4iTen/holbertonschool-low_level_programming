@@ -5,11 +5,11 @@
  */
 void print_binary(unsigned long int n)
 {
+	if (n == 0)
+		_putchar('0');
 	while (n >= 1)
 	{
 		_putchar('0' + (n & 1));
 		n >>= 1;
 	}
-	if (n == 0)
-		_putchar('0');
 }
