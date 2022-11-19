@@ -22,5 +22,5 @@ unsigned int binary_to_uint(const char *b)
 		pow *= 2;
 		i--;
 	}
-	return dec;
+	return (dec);
 }
